@@ -1,5 +1,5 @@
-const express = require('express');
-const app = express();
+var express = require('express');
+var app = express();
 
 // Constants
 const PORT = 80;
@@ -9,5 +9,5 @@ app.get("/", function (req, res) {
 });
 
 app.listen(PORT, function (){
-  console.log("Running");
+  console.log("App is Listening");
 });
